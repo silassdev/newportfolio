@@ -1,4 +1,4 @@
-// components/Navbar.js
+
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -28,7 +28,7 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      {/* Mobile Hamburger */}
+
       <div className="md:hidden">
   <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
     {!menuOpen && (
